@@ -16,7 +16,7 @@ while flag:
     print(n)
 
     for i in range(0, len(secret)):
-        if secret[i] == guessed_word:
+        if secret[i] == guessed_word.lower():
             secret_list[i] = guessed_word
             right_guess.append(guessed_word)
 
