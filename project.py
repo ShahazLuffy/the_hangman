@@ -12,6 +12,9 @@ n = 10
 flag = True
 while flag:
     guessed_word = input(print("guess the word !"))
+    if len(guessed_word) > 1:
+        print("your guess must be only 1 character at a time")
+        continue
     n -= 1
     print(n)
 
