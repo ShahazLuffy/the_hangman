@@ -6,10 +6,11 @@ secret = read_words.read_secret()[u]
 right_guess = []
 secret_list = []
 characer_entered = []
-print(secret)
+
 
 for x in range(0, len(secret)):
     secret_list.append("_")
+print(secret_list)
 n = 20
 flag = True
 while flag:
